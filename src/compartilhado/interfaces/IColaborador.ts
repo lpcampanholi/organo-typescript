@@ -1,6 +1,7 @@
 export interface IColaborador {
-  nome: string
-  cargo: string
-  imagem: string
-  time?: string
+  nome: string;
+  cargo: string;
+  imagem: string;
+  time?: string;
+  data: string;
 };

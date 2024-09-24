@@ -6,7 +6,7 @@ import { IColaborador } from "./compartilhado/interfaces/IColaborador";
 import times from "./json/times.json";
 
 const App = () => {
-  
+
   const [colaboradores, setColaboradores] = useState<IColaborador[]>([]);
 
   const aoNovoColaboradorAdicionado = (colaborador: IColaborador) => {

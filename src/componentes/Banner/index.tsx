@@ -1,8 +1,8 @@
 import "./Banner.css";
 
 interface BannerProps {
-  enderecoImagem: string
-  textoAlternativo?: string
+  enderecoImagem: string;
+  textoAlternativo?: string;
 };
 
 const Banner = ({ enderecoImagem, textoAlternativo }: BannerProps) => {

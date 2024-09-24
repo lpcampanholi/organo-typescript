@@ -1,11 +1,11 @@
 import "./ListaSuspensa.css";
 
 interface ListaSuspensaProps {
-  aoAlterado: (valor: string) => void
-  label: string
-  obrigatorio: boolean
-  valor: string
-  itens: string[]
+  aoAlterado: (valor: string) => void;
+  label: string;
+  obrigatorio: boolean;
+  valor: string;
+  itens: string[];
 };
 
 const ListaSuspensa = ({ label, aoAlterado, obrigatorio, valor, itens }: ListaSuspensaProps) => {

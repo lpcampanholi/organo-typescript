@@ -3,11 +3,11 @@ import Colaborador from "../Colaborador";
 import "./Time.css";
 
 interface TimeProps {
-  corPrimaria: string
-  corSecundaria: string
-  nome: string
-  colaboradores: IColaborador[]
-}
+  corPrimaria: string;
+  corSecundaria: string;
+  nome: string;
+  colaboradores: IColaborador[];
+};
 
 const Time = ({ corPrimaria, corSecundaria, nome, colaboradores }: TimeProps) => {
 
@@ -25,6 +25,7 @@ const Time = ({ corPrimaria, corSecundaria, nome, colaboradores }: TimeProps) =>
               nome={colaborador.nome}
               cargo={colaborador.cargo}
               imagem={colaborador.imagem}
+              data={colaborador.data}
             />)}
         </div>
       </section>
